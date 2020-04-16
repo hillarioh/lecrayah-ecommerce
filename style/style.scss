@@ -1,0 +1,29 @@
+@import "./variables";
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: $semi-clr;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 60px;
+
+    ul {
+        display: flex;
+
+        li {
+            list-style: none;
+        }
+    }
+
+    .nav1 li {
+        padding: 0 1rem;
+    }
+
+
+}
