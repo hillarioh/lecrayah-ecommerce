@@ -1,10 +1,3 @@
-body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 header {
   background: #383838;
   display: -webkit-box;
@@ -63,59 +56,66 @@ header .logo2 {
   color: #888888;
 }
 
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .article1 {
   background: #D35266;
 }
 
-.searching {
+.article1 .searching {
   padding: 1.5rem 0;
   margin-left: 15%;
 }
 
-.title-content {
+.article1 .title-content {
   color: white;
   line-height: 16px;
   margin-bottom: 1rem;
 }
 
-.title-content h {
+.article1 .title-content h {
   font-size: 24px;
   font-weight: 600;
 }
 
-.title-content p {
+.article1 .title-content p {
   margin: 0;
 }
 
-.search-bar {
+.article1 .search-bar {
   /* Change the background color of the dropdown button when the dropdown content is shown */
 }
 
-.search-bar .dropdown {
+.article1 .search-bar .dropdown {
   position: relative;
   display: inline-block;
 }
 
-.search-bar .dd1 {
+.article1 .search-bar .dd1 {
   width: 14%;
 }
 
-.search-bar .dd2 {
+.article1 .search-bar .dd2 {
   width: 28%;
 }
 
-.search-bar .dd3 {
+.article1 .search-bar .dd3 {
   width: 28%;
 }
 
-.search-bar .dd4 {
+.article1 .search-bar .dd4 {
   padding: 16px;
   font-size: 16px;
   background: #383838;
   color: #888888;
 }
 
-.search-bar .dropbtn {
+.article1 .search-bar .dropbtn {
   background-color: white;
   color: #888888;
   padding: 16px;
@@ -131,12 +131,12 @@ header .logo2 {
   width: 100%;
 }
 
-.search-bar .dropbtn img {
+.article1 .search-bar .dropbtn img {
   width: 10px;
   margin-right: 5px;
 }
 
-.search-bar .dropdown-content {
+.article1 .search-bar .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -144,18 +144,18 @@ header .logo2 {
   z-index: 1;
 }
 
-.search-bar .dropdown-content a {
+.article1 .search-bar .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.search-bar .dropdown-content a:hover {
+.article1 .search-bar .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
 
-.search-bar .dropdown:hover .dropdown-content {
+.article1 .search-bar .dropdown:hover .dropdown-content {
   -webkit-transition-property: display;
   transition-property: display;
   -webkit-transition-delay: 2s;
@@ -165,7 +165,16 @@ header .logo2 {
   display: block;
 }
 
-.search-bar .dropdown:hover .dropbtn {
+.article1 .search-bar .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */

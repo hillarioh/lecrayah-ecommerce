@@ -1,0 +1,48 @@
+header {
+    background: $semi-clr;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 60px;
+
+    ul {
+        display: flex;
+        align-items: center;
+        margin: 0;
+
+        li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .nav1 li {
+        padding: 0 1rem;
+        font-size: 17px;
+    }
+
+    .nav2 li {
+        padding: 0 1rem;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+        color: $primary-clr;
+    }
+
+    .logo1 {
+        margin-left: 0.5rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    .logo2 {
+        margin-left: 1rem;
+        color: $secondary-clr;
+    }
+
+
+
+
+}
