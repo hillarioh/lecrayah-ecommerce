@@ -394,10 +394,22 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .article2 .ad .wrapper1 {
   width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .article2 .ad .wrapper1 i {
@@ -409,7 +421,82 @@ body {
 }
 
 .article2 .ad .wrapper2 {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 60%;
+}
+
+.article2 .ad .wrapper2 .ad-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 200px;
+  border: 1px solid #888888;
+}
+
+.article2 .ad .wrapper2 .ad-main .ad-img {
+  position: relative;
+  height: auto;
+  background: #D35266;
+}
+
+.article2 .ad .wrapper2 .ad-main .ad-img img {
+  height: 100%;
+  width: 200px;
+}
+
+.article2 .ad .wrapper2 .ad-main .ad-img .ad-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #383838;
+  padding: 5px 0;
+}
+
+.article2 .ad .wrapper2 .ad-main .ad-img .ad-icon i {
+  color: #D35266;
+  font-size: 18px;
+  padding: 0 0.5rem;
+}
+
+.article2 .ad .wrapper2 .ad-main .ad-content {
+  padding: 0 1.5rem;
+}
+
+.article2 .ad .wrapper2 .ad-main .ad-content h2 {
+  color: white;
+  padding: 16px;
+  background: #D35266;
+  margin: 0;
+  display: inline-block;
+}
+
+.article2 .ad .wrapper2 .ad-main .ad-content .ad-loc {
+  margin-bottom: 8px;
+}
+
+.article2 .ad .wrapper2 .ad-main .ad-content .ad-loc h5 {
+  margin: 0;
+  color: #383838;
+  font-size: 16px;
+}
+
+.article2 .ad .wrapper2 .ad-main .ad-content .ad-loc h5 span {
+  color: #888888;
+}
+
+.article2 .ad .wrapper2 .ad-main .ad-content h3 {
+  color: #D35266;
+  margin: 0;
+  display: inline-block;
+}
+
+.article2 .ad .wrapper2 .ad-main .ad-content p {
+  color: #888888;
 }
 /*# sourceMappingURL=style.css.map */

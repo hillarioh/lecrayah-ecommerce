@@ -14,9 +14,13 @@ body {
 
     .ad {
         display: flex;
+        justify-content: center;
 
         .wrapper1 {
             width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             i {
                 font-size: 20px;
@@ -25,11 +29,88 @@ body {
                 border-radius: 50%;
                 border: 1px solid $secondary-clr;
             }
+
+
+
         }
 
         .wrapper2 {
-            display: inline-block;
+            display: flex;
+            flex-direction: column;
             width: 60%;
+
+
+            .ad-main {
+                display: flex;
+                min-height: 200px;
+                border: 1px solid $secondary-clr;
+
+                .ad-img {
+                    position: relative;
+                    height: auto;
+                    background: $primary-clr;
+
+                    img {
+                        height: 100%;
+                        width: 200px;
+                    }
+
+                    .ad-icon {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        background: $semi-clr;
+                        padding: 5px 0;
+
+                        i {
+                            color: $primary-clr;
+                            font-size: 18px;
+                            padding: 0 0.5rem;
+                        }
+                    }
+                }
+
+                .ad-content {
+                    padding: 0 1.5rem;
+
+                    h2 {
+                        color: white;
+                        padding: 16px;
+                        background: $primary-clr;
+                        margin: 0;
+                        display: inline-block;
+                    }
+
+                    .ad-loc {
+                        margin-bottom: 8px;
+
+                        h5 {
+                            margin: 0;
+                            color: $semi-clr;
+                            font-size: 16px;
+
+                            span {
+                                color: $secondary-clr;
+                            }
+                        }
+                    }
+
+                    h3 {
+                        color: $primary-clr;
+                        margin: 0;
+                        display: inline-block;
+                    }
+
+                    p {
+                        color: $secondary-clr;
+                    }
+
+
+                }
+
+            }
+
+
         }
 
 
