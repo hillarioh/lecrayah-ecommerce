@@ -1,0 +1,112 @@
+.article1 {
+    background: $primary-clr;
+
+    .searching {
+        padding: 2rem 0;
+        // margin-left: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .title-content {
+            color: white;
+            line-height: 16px;
+            margin-bottom: 2rem;
+            text-align: center;
+
+            h {
+                font-size: 24px;
+                font-weight: 600;
+            }
+
+            p {
+                margin: 0;
+
+            }
+
+        }
+
+        .search-bar {
+
+            display: flex;
+            justify-content: center;
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+
+            .dd1 {
+                width: 14%;
+            }
+
+            .dd2 {
+                width: 28%;
+            }
+
+            .dd3 {
+                width: 28%;
+            }
+
+            .dd4 {
+                padding: 16px;
+                font-size: 16px;
+                background: $semi-clr;
+                color: $secondary-clr;
+            }
+
+            .dropbtn {
+                background-color: white;
+                color: $secondary-clr;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                width: 100%;
+
+                img {
+                    width: 10px;
+                    margin-right: 5px;
+                }
+
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                width: 100%;
+                z-index: 1;
+
+                a {
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+
+                    &:hover {
+                        background-color: #f1f1f1
+                    }
+                }
+            }
+
+            .dropdown:hover .dropdown-content {
+                transition-property: display;
+                transition-delay: 2s;
+                transition-duration: 4s;
+                display: block;
+            }
+
+            /* Change the background color of the dropdown button when the dropdown content is shown */
+            .dropdown:hover .dropbtn {
+                background-color: #3e8e41;
+            }
+        }
+    }
+
+
+
+
+}
