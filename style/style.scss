@@ -1,6 +1,7 @@
 @import "./variables";
 @import "./header";
 @import "./article1";
+@import "./footer";
 
 body {
     box-sizing: border-box;
@@ -10,170 +11,27 @@ body {
 
 .article2 {
     min-height: 100vh;
-}
 
-
-.footer {
-
-    .footer1 {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        border-top: 1px solid $secondary-clr;
-        border-bottom: 1px solid $secondary-clr;
-
-        .footer-logo {
-            padding: 1rem;
-            grid-column: 1 / 2;
-
-            .logo {
-                font-size: 2.5rem;
-                color: $secondary-clr;
-            }
-
-            .logo1 {
-                margin-left: 0.5rem;
-                font-size: 2rem;
-                color: $secondary-clr;
-            }
-        }
-
-        .footer-cate {
-
-            padding: 1rem;
-
-            h3 {
-                color: $primary-clr;
-                border-bottom: 1px solid $primary-clr;
-            }
-
-            .ft-in-ct {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                grid-column: 2 / 3;
-
-
-
-                li {
-                    list-style: none;
-
-                    a {
-                        text-decoration: none;
-                        color: $secondary-clr;
-                    }
-                }
-
-                .ct-pt1 {
-                    grid-column: 1 / 2;
-                    display: flex;
-                    flex-direction: column;
-                    padding-left: 0;
-                }
-
-                .ct-pt2 {
-                    grid-column: 2 / 3;
-                    display: flex;
-                    flex-direction: column;
-                    padding-left: 0;
-                }
-            }
-
-
-        }
-
-        .footer-nav {
-            grid-column: 3 / 4;
-            padding: 1rem;
-
-            h3 {
-                color: $primary-clr;
-                border-bottom: 1px solid $primary-clr;
-            }
-
-            .nav {
-                display: flex;
-                flex-direction: column;
-                padding-left: 0;
-
-                li {
-                    list-style: none;
-
-                    a {
-                        text-decoration: none;
-                        color: $secondary-clr;
-                    }
-                }
-            }
-        }
-
-        .footer-cnt {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-column: 4 / 5;
-            padding: 1rem;
-
-            li {
-                list-style: none;
-            }
-
-            .cnt1 {
-                grid-column: 1 / 2;
-                padding-left: 0;
-
-                li {
-                    color: $primary-clr;
-                    padding: 8px 16px;
-                    text-align: end;
-                    border: 1px solid white;
-                    margin: 8px 0;
-                    border-radius: 5px;
-                }
-            }
-
-            .cnt2 {
-                grid-column: 2 / 3;
-                padding-left: 0;
-
-                li {
-                    color: $semi-clr;
-                    padding: 8px 16px;
-                    text-align: center;
-                    border: 1px solid $secondary-clr;
-                    margin: 8px 0;
-                    border-radius: 5px;
-                }
-            }
-        }
-
-
-    }
-
-    .footer2 {
+    .ad {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 0 1rem;
-        height: 40px;
-        align-items: center;
 
-        p {
-            margin: 0;
-        }
+        .wrapper1 {
+            width: 100px;
 
-        .ft-lk {
-            display: flex;
-            padding-left: 0;
-            margin: 0;
-
-            li {
-                list-style: none;
-                padding: 0 0.5rem;
-
-                a {
-                    text-decoration: none;
-                    color: $secondary-clr;
-                    font-size: 20px;
-                }
+            i {
+                font-size: 20px;
+                color: $primary-clr;
+                padding: 8px 12px;
+                border-radius: 50%;
+                border: 1px solid $secondary-clr;
             }
         }
+
+        .wrapper2 {
+            display: inline-block;
+            width: 60%;
+        }
+
+
     }
 }

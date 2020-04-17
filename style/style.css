@@ -178,17 +178,6 @@ header .logo2 {
   background-color: #3e8e41;
 }
 
-body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.article2 {
-  min-height: 100vh;
-}
-
 .footer .footer1 {
   display: -ms-grid;
   display: grid;
@@ -388,5 +377,39 @@ body {
   text-decoration: none;
   color: #888888;
   font-size: 20px;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.article2 {
+  min-height: 100vh;
+}
+
+.article2 .ad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.article2 .ad .wrapper1 {
+  width: 100px;
+}
+
+.article2 .ad .wrapper1 i {
+  font-size: 20px;
+  color: #D35266;
+  padding: 8px 12px;
+  border-radius: 50%;
+  border: 1px solid #888888;
+}
+
+.article2 .ad .wrapper2 {
+  display: inline-block;
+  width: 60%;
 }
 /*# sourceMappingURL=style.css.map */
