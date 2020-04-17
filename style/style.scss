@@ -115,4 +115,234 @@ body {
 
 
     }
+
+    .cookware {
+        border-top: 1px solid $secondary-clr;
+        margin-top: 2rem;
+        background: $mainbg;
+
+        .ck-tt {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 70%;
+            height: 50px;
+            margin: 1rem auto;
+            border-bottom: 1px solid $secondary-clr;
+
+            .ck-tt1 {
+                display: flex;
+                padding-left: 0;
+                margin: 0;
+                align-items: center;
+
+                li {
+                    list-style: none;
+                    padding: 0 1rem;
+
+                    &:nth-child(2) {
+                        font-size: 1.5rem;
+                        color: $semi-clr;
+                    }
+
+                    &:nth-child(3) {
+                        color: $secondary-clr;
+                    }
+
+                    i {
+                        font-size: 35px;
+                    }
+                }
+            }
+
+            h4 {
+                margin: 0;
+                color: $primary-clr;
+            }
+        }
+
+        .cookware-items {
+            display: flex;
+            justify-content: center;
+
+            .card {
+                width: 200px;
+                height: 284px;
+                overflow: hidden;
+                position: relative;
+                background: white;
+                // border-radius: 5px;
+                margin: 8px 8px;
+
+                p {
+                    margin: 0;
+                }
+
+                img {
+                    width: 100%;
+                    height: 60%;
+                }
+
+                .card-bottom {
+                    padding-left: 8px;
+                    padding-right: 1.5rem;
+                    height: 40%;
+
+
+                    div {
+                        display: flex;
+                        justify-content: space-between;
+
+
+                        i {
+                            position: absolute;
+                            bottom: 8px;
+                            left: 8px;
+                            border: 1px solid $secondary-clr;
+                            color: $secondary-clr;
+                            font-size: 12px;
+                            padding: 2px;
+                        }
+
+                        p {
+                            position: absolute;
+                            bottom: 8px;
+                            right: 16px;
+                            color: $primary-clr;
+                            font-weight: 600;
+                        }
+                    }
+
+                }
+            }
+
+            .intro {
+                width: 50px;
+                height: 284px;
+                position: relative;
+                border-radius: 5px;
+                margin: 8px 8px;
+
+                .overlay {
+                    width: 100%;
+                    height: 100%;
+
+                    background: #bbb7b7;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        opacity: 19%;
+                    }
+
+                    i {
+                        position: absolute;
+                        top: 50%;
+                        right: 50%;
+                        font-size: 22px;
+
+                    }
+                }
+
+
+
+
+            }
+        }
+
+
+    }
+}
+
+.second-page {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+
+    aside {
+        width: 20%;
+        background: rgb(166, 233, 166);
+
+        .form-group {
+            display: flex;
+        }
+
+
+    }
+
+    section {
+        width: 60%;
+        background: rgb(240, 227, 154);
+
+        .ad-main {
+            display: flex;
+            min-height: 200px;
+            border: 1px solid $secondary-clr;
+
+            .ad-img {
+                position: relative;
+                height: auto;
+                background: $primary-clr;
+
+                img {
+                    height: 100%;
+                    width: 200px;
+                }
+
+                .ad-icon {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    background: $semi-clr;
+                    padding: 5px 0;
+
+                    i {
+                        color: $primary-clr;
+                        font-size: 18px;
+                        padding: 0 0.5rem;
+                    }
+                }
+            }
+
+            .ad-content {
+                padding: 0 1.5rem;
+
+                h2 {
+                    color: white;
+                    padding: 16px;
+                    background: $primary-clr;
+                    margin: 0;
+                    display: inline-block;
+                }
+
+                .ad-loc {
+                    margin-bottom: 8px;
+
+                    h5 {
+                        margin: 0;
+                        color: $semi-clr;
+                        font-size: 16px;
+
+                        span {
+                            color: $secondary-clr;
+                        }
+                    }
+                }
+
+                h3 {
+                    color: $primary-clr;
+                    margin: 0;
+                    display: inline-block;
+                }
+
+                p {
+                    color: $secondary-clr;
+                }
+
+
+            }
+
+        }
+    }
 }

@@ -499,4 +499,244 @@ body {
 .article2 .ad .wrapper2 .ad-main .ad-content p {
   color: #888888;
 }
+
+.article2 .cookware {
+  border-top: 1px solid #888888;
+  margin-top: 2rem;
+  background: #dad5d5;
+}
+
+.article2 .cookware .ck-tt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 70%;
+  height: 50px;
+  margin: 1rem auto;
+  border-bottom: 1px solid #888888;
+}
+
+.article2 .cookware .ck-tt .ck-tt1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.article2 .cookware .ck-tt .ck-tt1 li {
+  list-style: none;
+  padding: 0 1rem;
+}
+
+.article2 .cookware .ck-tt .ck-tt1 li:nth-child(2) {
+  font-size: 1.5rem;
+  color: #383838;
+}
+
+.article2 .cookware .ck-tt .ck-tt1 li:nth-child(3) {
+  color: #888888;
+}
+
+.article2 .cookware .ck-tt .ck-tt1 li i {
+  font-size: 35px;
+}
+
+.article2 .cookware .ck-tt h4 {
+  margin: 0;
+  color: #D35266;
+}
+
+.article2 .cookware .cookware-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.article2 .cookware .cookware-items .card {
+  width: 200px;
+  height: 284px;
+  overflow: hidden;
+  position: relative;
+  background: white;
+  margin: 8px 8px;
+}
+
+.article2 .cookware .cookware-items .card p {
+  margin: 0;
+}
+
+.article2 .cookware .cookware-items .card img {
+  width: 100%;
+  height: 60%;
+}
+
+.article2 .cookware .cookware-items .card .card-bottom {
+  padding-left: 8px;
+  padding-right: 1.5rem;
+  height: 40%;
+}
+
+.article2 .cookware .cookware-items .card .card-bottom div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.article2 .cookware .cookware-items .card .card-bottom div i {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  border: 1px solid #888888;
+  color: #888888;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.article2 .cookware .cookware-items .card .card-bottom div p {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: #D35266;
+  font-weight: 600;
+}
+
+.article2 .cookware .cookware-items .intro {
+  width: 50px;
+  height: 284px;
+  position: relative;
+  border-radius: 5px;
+  margin: 8px 8px;
+}
+
+.article2 .cookware .cookware-items .intro .overlay {
+  width: 100%;
+  height: 100%;
+  background: #bbb7b7;
+}
+
+.article2 .cookware .cookware-items .intro .overlay img {
+  width: 100%;
+  height: 100%;
+  opacity: 19%;
+}
+
+.article2 .cookware .cookware-items .intro .overlay i {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  font-size: 22px;
+}
+
+.second-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-page aside {
+  width: 20%;
+  background: #a6e9a6;
+}
+
+.second-page aside .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.second-page section {
+  width: 60%;
+  background: #f0e39a;
+}
+
+.second-page section .ad-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 200px;
+  border: 1px solid #888888;
+}
+
+.second-page section .ad-main .ad-img {
+  position: relative;
+  height: auto;
+  background: #D35266;
+}
+
+.second-page section .ad-main .ad-img img {
+  height: 100%;
+  width: 200px;
+}
+
+.second-page section .ad-main .ad-img .ad-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #383838;
+  padding: 5px 0;
+}
+
+.second-page section .ad-main .ad-img .ad-icon i {
+  color: #D35266;
+  font-size: 18px;
+  padding: 0 0.5rem;
+}
+
+.second-page section .ad-main .ad-content {
+  padding: 0 1.5rem;
+}
+
+.second-page section .ad-main .ad-content h2 {
+  color: white;
+  padding: 16px;
+  background: #D35266;
+  margin: 0;
+  display: inline-block;
+}
+
+.second-page section .ad-main .ad-content .ad-loc {
+  margin-bottom: 8px;
+}
+
+.second-page section .ad-main .ad-content .ad-loc h5 {
+  margin: 0;
+  color: #383838;
+  font-size: 16px;
+}
+
+.second-page section .ad-main .ad-content .ad-loc h5 span {
+  color: #888888;
+}
+
+.second-page section .ad-main .ad-content h3 {
+  color: #D35266;
+  margin: 0;
+  display: inline-block;
+}
+
+.second-page section .ad-main .ad-content p {
+  color: #888888;
+}
 /*# sourceMappingURL=style.css.map */
