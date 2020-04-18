@@ -111,17 +111,37 @@ header .logo2 {
 
 .article1 .searching .search-bar .dd2 {
   width: 28%;
+  color: #383838;
+  border: none;
+  font-size: 16px;
+  padding-left: 8px;
+  border-left: 1px solid #D35266;
 }
 
 .article1 .searching .search-bar .dd3 {
   width: 28%;
+  color: #383838;
+  border: none;
+  font-size: 16px;
+  padding-left: 8px;
+  border-left: 1px solid #D35266;
 }
 
 .article1 .searching .search-bar .dd4 {
   padding: 16px;
   font-size: 16px;
+  font-weight: 600;
   background: #383838;
   color: #888888;
+  margin-left: 8px;
+  cursor: pointer;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+
+.article1 .searching .search-bar .dd4:hover {
+  background: #535151;
+  color: white;
 }
 
 .article1 .searching .search-bar .dropbtn {
@@ -541,6 +561,7 @@ body {
 .article2 .cookware .ck-tt .ck-tt1 li {
   list-style: none;
   padding: 0 1rem;
+  cursor: pointer;
 }
 
 .article2 .cookware .ck-tt .ck-tt1 li:nth-child(2) {
@@ -577,6 +598,17 @@ body {
   position: relative;
   background: white;
   margin: 8px 8px;
+  -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+          box-shadow: 1px 1px 1px 1px #ccc;
+  padding: 2px;
+  -webkit-transition: padding 0.2s linear;
+  transition: padding 0.2s linear;
+  cursor: pointer;
+}
+
+.article2 .cookware .cookware-items .card:hover {
+  -webkit-box-shadow: -1px 2px 5px 6px #d6d2d6;
+          box-shadow: -1px 2px 5px 6px #d6d2d6;
 }
 
 .article2 .cookware .cookware-items .card p {
@@ -607,10 +639,16 @@ body {
   position: absolute;
   bottom: 8px;
   left: 8px;
-  border: 1px solid #888888;
-  color: #888888;
+  border: 1px solid #ccc7c7;
+  color: #ccc7c7;
   font-size: 12px;
-  padding: 2px;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.article2 .cookware .cookware-items .card .card-bottom div i:hover {
+  border: 1px solid #D35266;
+  color: #D35266;
 }
 
 .article2 .cookware .cookware-items .card .card-bottom div p {

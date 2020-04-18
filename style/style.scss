@@ -153,6 +153,7 @@ body {
                 li {
                     list-style: none;
                     padding: 0 1rem;
+                    cursor: pointer;
 
                     &:nth-child(2) {
                         font-size: 1.5rem;
@@ -187,6 +188,14 @@ body {
                 background: white;
                 // border-radius: 5px;
                 margin: 8px 8px;
+                box-shadow: 1px 1px 1px 1px #ccc;
+                padding: 2px;
+                transition: padding 0.2s linear;
+                cursor: pointer;
+
+                &:hover {
+                    box-shadow: -1px 2px 5px 6px rgba(214, 210, 214, 1);
+                }
 
                 p {
                     margin: 0;
@@ -212,10 +221,16 @@ body {
                             position: absolute;
                             bottom: 8px;
                             left: 8px;
-                            border: 1px solid $secondary-clr;
-                            color: $secondary-clr;
+                            border: 1px solid #ccc7c7;
+                            color: #ccc7c7;
                             font-size: 12px;
-                            padding: 2px;
+                            border-radius: 2px;
+                            padding: 5px;
+
+                            &:hover {
+                                border: 1px solid $primary-clr;
+                                color: $primary-clr;
+                            }
                         }
 
                         p {

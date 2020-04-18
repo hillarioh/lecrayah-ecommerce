@@ -38,21 +38,42 @@
 
             .dd1 {
                 width: 14%;
+
             }
 
             .dd2 {
                 width: 28%;
+                color: $semi-clr;
+                border: none;
+                font-size: 16px;
+                padding-left: 8px;
+                border-left: 1px solid $primary-clr;
+
             }
 
             .dd3 {
                 width: 28%;
+                color: $semi-clr;
+                border: none;
+                font-size: 16px;
+                padding-left: 8px;
+                border-left: 1px solid $primary-clr;
             }
 
             .dd4 {
                 padding: 16px;
                 font-size: 16px;
+                font-weight: 600;
                 background: $semi-clr;
                 color: $secondary-clr;
+                margin-left: 8px;
+                cursor: pointer;
+                transition: background 0.3s ease;
+
+                &:hover {
+                    background: $hsemi;
+                    color: white;
+                }
             }
 
             .dropbtn {
