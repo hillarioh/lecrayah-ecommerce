@@ -1,291 +1,19 @@
 @import "./variables";
 @import "./header";
 @import "./article1";
+@import "./article2";
 @import "./footer";
-
-@mixin inputAlign {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: $background;
-}
 
 
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background: $mainbg;
 }
 
 main {
     margin-top: 60px;
-}
-
-.article-container {
-    background: $mainbg;
-}
-
-.article2 {
-    min-height: 100vh;
-
-    .ad {
-        display: flex;
-        justify-content: center;
-
-        .wrapper1 {
-            width: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            i {
-                font-size: 20px;
-                color: $primary-clr;
-                padding: 8px 12px;
-                border-radius: 50%;
-                border: 1px solid $secondary-clr;
-            }
-
-
-
-        }
-
-        .wrapper2 {
-            display: flex;
-            flex-direction: column;
-            width: 60%;
-
-
-            .ad-main {
-                display: flex;
-                min-height: 200px;
-                border: 1px solid $secondary-clr;
-
-                .ad-img {
-                    position: relative;
-                    height: auto;
-                    background: $primary-clr;
-
-                    img {
-                        height: 100%;
-                        width: 200px;
-                    }
-
-                    .ad-icon {
-                        position: absolute;
-                        bottom: 0;
-                        right: 0;
-                        background: $semi-clr;
-                        padding: 5px 0;
-
-                        i {
-                            color: $primary-clr;
-                            font-size: 18px;
-                            padding: 0 0.5rem;
-                        }
-                    }
-                }
-
-                .ad-content {
-                    padding: 0 1.5rem;
-
-                    h2 {
-                        color: white;
-                        padding: 16px;
-                        background: $primary-clr;
-                        margin: 0;
-                        display: inline-block;
-                    }
-
-                    .ad-loc {
-                        margin-bottom: 8px;
-
-                        h5 {
-                            margin: 0;
-                            color: $semi-clr;
-                            font-size: 16px;
-
-                            span {
-                                color: $secondary-clr;
-                            }
-                        }
-                    }
-
-                    h3 {
-                        color: $primary-clr;
-                        margin: 0;
-                        display: inline-block;
-                    }
-
-                    p {
-                        color: $secondary-clr;
-                    }
-
-
-                }
-
-            }
-
-
-        }
-
-
-    }
-
-    .cookware {
-        border-top: 1px solid $secondary-clr;
-        margin-top: 2rem;
-        padding-bottom: 2rem;
-
-
-        .ck-tt {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            width: 70%;
-            height: 50px;
-            margin: 1rem auto;
-            border-bottom: 1px solid $secondary-clr;
-
-            .ck-tt1 {
-                display: flex;
-                padding-left: 0;
-                margin: 0;
-                align-items: center;
-
-                li {
-                    list-style: none;
-                    padding: 0 1rem;
-                    cursor: pointer;
-
-                    &:nth-child(2) {
-                        font-size: 1.5rem;
-                        color: $semi-clr;
-                    }
-
-                    &:nth-child(3) {
-                        color: $secondary-clr;
-                    }
-
-                    i {
-                        font-size: 35px;
-                    }
-                }
-            }
-
-            h4 {
-                margin: 0;
-                color: $primary-clr;
-            }
-        }
-
-        .cookware-items {
-            display: flex;
-            justify-content: center;
-
-            .card {
-                width: 200px;
-                height: 284px;
-                overflow: hidden;
-                position: relative;
-                background: white;
-                // border-radius: 5px;
-                margin: 8px 8px;
-                box-shadow: 1px 1px 1px 1px #ccc;
-                padding: 2px;
-                transition: padding 0.2s linear;
-                cursor: pointer;
-
-                &:hover {
-                    box-shadow: -1px 2px 5px 6px rgba(214, 210, 214, 1);
-                }
-
-                p {
-                    margin: 0;
-                }
-
-                img {
-                    width: 100%;
-                    height: 60%;
-                }
-
-                .card-bottom {
-                    padding-left: 8px;
-                    padding-right: 1.5rem;
-                    height: 40%;
-
-
-                    div {
-                        display: flex;
-                        justify-content: space-between;
-
-
-                        i {
-                            position: absolute;
-                            bottom: 8px;
-                            left: 8px;
-                            border: 1px solid #ccc7c7;
-                            color: #ccc7c7;
-                            font-size: 12px;
-                            border-radius: 2px;
-                            padding: 5px;
-
-                            &:hover {
-                                border: 1px solid $primary-clr;
-                                color: $primary-clr;
-                            }
-                        }
-
-                        p {
-                            position: absolute;
-                            bottom: 8px;
-                            right: 16px;
-                            color: $primary-clr;
-                            font-weight: 600;
-                        }
-                    }
-
-                }
-            }
-
-            .intro {
-                width: 50px;
-                height: 284px;
-                position: relative;
-                border-radius: 5px;
-                margin: 8px 8px;
-
-                .overlay {
-                    width: 100%;
-                    height: 100%;
-
-                    background: #bbb7b7;
-
-                    img {
-                        width: 100%;
-                        height: 100%;
-                        opacity: 19%;
-                    }
-
-                    i {
-                        position: absolute;
-                        top: 50%;
-                        right: 50%;
-                        font-size: 22px;
-
-                    }
-                }
-
-
-
-
-            }
-        }
-
-
-    }
 }
 
 .second-page {
@@ -510,3 +238,11 @@ main {
         }
     }
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (max-width: 575px) {}

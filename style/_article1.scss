@@ -7,6 +7,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 100%;
 
         .title-content {
             color: white;
@@ -29,14 +30,29 @@
 
             display: flex;
             justify-content: center;
+            min-height: 40px;
 
-            .dropdown {
-                position: relative;
-                display: inline-block;
-            }
+
 
             .dd1 {
                 width: 14%;
+
+                .dropbtn {
+                    background-color: white;
+                    color: $secondary-clr;
+                    border: none;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    width: 100%;
+
+                    img {
+                        width: 10px;
+                        margin-right: 5px;
+                    }
+
+                }
 
             }
 
@@ -60,6 +76,7 @@
             }
 
             .dd4 {
+                min-width: 5%;
 
                 a {
                     text-decoration: none;
@@ -69,9 +86,10 @@
                 }
 
                 padding: 16px;
-
+                display: flex;
                 background: $semi-clr;
-
+                align-items: center;
+                justify-content: center;
                 margin-left: 8px;
                 cursor: pointer;
                 transition: background 0.3s ease;
@@ -82,23 +100,7 @@
                 }
             }
 
-            .dropbtn {
-                background-color: white;
-                color: $secondary-clr;
-                padding: 16px;
-                font-size: 16px;
-                border: none;
-                display: flex;
-                align-items: center;
-                cursor: pointer;
-                width: 100%;
 
-                img {
-                    width: 10px;
-                    margin-right: 5px;
-                }
-
-            }
 
             .dropdown-content {
                 display: none;
@@ -132,8 +134,90 @@
             }
         }
     }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .article1 {
+        margin-right: -18px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .article1 {
+        margin-right: -12.4rem;
+
+        .title-content {
+            margin-bottom: 6px;
+        }
+
+        .search-bar {
+            flex-direction: column;
 
 
+            .dd1 {
+                min-width: 90%;
+                margin-left: 5%;
+                height: 45px;
+
+                margin-bottom: 8px;
+            }
+
+            .dd2,
+            .dd3 {
+                min-width: 89%;
+                margin-left: 4.9%;
+                line-height: 45px;
+                margin-bottom: 8px;
+            }
+
+            .dd4 {
+                width: 94%;
+
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .article1 {
+        margin-right: -12.4rem;
+
+        .title-content {
+            margin-bottom: 6px;
+        }
+
+        .search-bar {
+            flex-direction: column;
 
 
+            .dd1 {
+                min-width: 90%;
+                margin-left: 5%;
+                height: 45px;
+
+                margin-bottom: 8px;
+            }
+
+            .dd2,
+            .dd3 {
+                min-width: 89%;
+                margin-left: 4.9%;
+                line-height: 45px;
+                margin-bottom: 8px;
+            }
+
+            .dd4 {
+                width: 94%;
+
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
 }
