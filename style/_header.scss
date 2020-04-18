@@ -4,6 +4,13 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     height: 60px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 9999;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
 
     ul {
         display: flex;

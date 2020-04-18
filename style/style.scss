@@ -18,6 +18,10 @@ body {
     padding: 0;
 }
 
+main {
+    margin-top: 60px;
+}
+
 .article-container {
     background: $mainbg;
 }
@@ -132,6 +136,7 @@ body {
     .cookware {
         border-top: 1px solid $secondary-clr;
         margin-top: 2rem;
+        padding-bottom: 2rem;
 
 
         .ck-tt {

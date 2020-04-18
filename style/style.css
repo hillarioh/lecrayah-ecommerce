@@ -9,6 +9,13 @@ header {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 60px;
+  overflow: hidden;
+  position: fixed;
+  z-index: 9999;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
 }
 
 header ul {
@@ -76,18 +83,18 @@ header .logo2 {
 
 .article1 .searching .title-content {
   color: white;
-  line-height: 16px;
   margin-bottom: 2rem;
   text-align: center;
 }
 
 .article1 .searching .title-content h {
-  font-size: 24px;
+  font-size: 4rem;
   font-weight: 600;
 }
 
 .article1 .searching .title-content p {
   margin: 0;
+  font-size: 1.5rem;
 }
 
 .article1 .searching .search-bar {
@@ -406,6 +413,10 @@ body {
   padding: 0;
 }
 
+main {
+  margin-top: 60px;
+}
+
 .article-container {
   background: #f7efef;
 }
@@ -527,6 +538,7 @@ body {
 .article2 .cookware {
   border-top: 1px solid #888888;
   margin-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .article2 .cookware .ck-tt {
