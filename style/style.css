@@ -656,41 +656,90 @@ body {
 }
 
 .second-page aside {
-  width: 20%;
+  width: 15%;
   background: #a6e9a6;
+  padding: 0 1rem;
+}
+
+.second-page aside .in-al {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second-page aside .in-al input {
+  margin-right: 8px;
+}
+
+.second-page aside .in-al1 {
+  margin-right: 1rem;
 }
 
 .second-page aside .form-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 1rem 0;
 }
 
-.second-page section {
+.second-page aside .form-group1 {
+  margin-bottom: 8px;
+}
+
+.second-page aside #cust {
+  width: 40px;
+  margin-left: 0.5rem;
+  border-radius: 2px;
+  border: 1px solid #666;
+}
+
+.second-page aside h3 {
+  margin: 0;
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #888888;
+}
+
+.second-page .sec1 {
   width: 60%;
   background: #f0e39a;
+  border-right: 1px solid #888888;
+  border-left: 1px solid #888888;
 }
 
-.second-page section .ad-main {
+.second-page .sec1 .item1 {
+  margin: 1rem 0;
+  margin-left: 1rem;
+}
+
+.second-page .sec1 .ad-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   min-height: 200px;
-  border: 1px solid #888888;
+  padding: 1rem;
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #888888;
+  margin-bottom: 8px;
 }
 
-.second-page section .ad-main .ad-img {
+.second-page .sec1 .ad-main .ad-img {
   position: relative;
   height: auto;
   background: #D35266;
 }
 
-.second-page section .ad-main .ad-img img {
+.second-page .sec1 .ad-main .ad-img img {
   height: 100%;
-  width: 200px;
+  width: 220px;
 }
 
-.second-page section .ad-main .ad-img .ad-icon {
+.second-page .sec1 .ad-main .ad-img .ad-icon {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -698,45 +747,91 @@ body {
   padding: 5px 0;
 }
 
-.second-page section .ad-main .ad-img .ad-icon i {
+.second-page .sec1 .ad-main .ad-img .ad-icon i {
   color: #D35266;
   font-size: 18px;
   padding: 0 0.5rem;
 }
 
-.second-page section .ad-main .ad-content {
+.second-page .sec1 .ad-main .ad-content {
   padding: 0 1.5rem;
+  padding-top: 12px;
 }
 
-.second-page section .ad-main .ad-content h2 {
-  color: white;
-  padding: 16px;
-  background: #D35266;
+.second-page .sec1 .ad-main .ad-content .ad-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second-page .sec1 .ad-main .ad-content .ad-con .ad-con-h1 {
+  width: 80%;
+  color: #383838;
   margin: 0;
   display: inline-block;
 }
 
-.second-page section .ad-main .ad-content .ad-loc {
-  margin-bottom: 8px;
-}
-
-.second-page section .ad-main .ad-content .ad-loc h5 {
-  margin: 0;
-  color: #383838;
-  font-size: 16px;
-}
-
-.second-page section .ad-main .ad-content .ad-loc h5 span {
+.second-page .sec1 .ad-main .ad-content .ad-con i {
+  border: 1px solid #888888;
   color: #888888;
+  font-size: 10px;
+  padding: 4px;
 }
 
-.second-page section .ad-main .ad-content h3 {
+.second-page .sec1 .ad-main .ad-content .ad-con-h2 {
   color: #D35266;
   margin: 0;
   display: inline-block;
 }
 
-.second-page section .ad-main .ad-content p {
+.second-page .sec1 .ad-main .ad-content .ad-lw {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second-page .sec1 .ad-main .ad-content .ad-lw .ady {
+  margin: 0;
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.second-page .sec1 .ad-main .ad-content .ad-lw .ady1 {
+  margin: 0;
+  padding: 4px 8px;
+  font-size: 20px;
+  color: white;
+  background: #D35266;
+}
+
+.second-page .sec1 .ad-main .ad-content .ad-loc {
+  margin-bottom: 8px;
+}
+
+.second-page .sec1 .ad-main .ad-content .ad-loc h5 {
+  margin: 0;
+  color: #383838;
+  font-size: 16px;
+}
+
+.second-page .sec1 .ad-main .ad-content .ad-loc h5 span {
+  color: #888888;
+}
+
+.second-page .sec1 .ad-main .ad-content p {
   color: #888888;
 }
 /*# sourceMappingURL=style.css.map */
