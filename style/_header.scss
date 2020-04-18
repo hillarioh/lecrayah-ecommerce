@@ -12,6 +12,10 @@ header {
     /* Position the navbar at the top of the page */
     width: 100%;
 
+    .h-ic {
+        color: white;
+    }
+
     ul {
         display: flex;
         align-items: center;
@@ -24,14 +28,39 @@ header {
         }
     }
 
-    .nav1 li {
-        padding: 0 1rem;
-        font-size: 17px;
+    .nav1 {
+
+
+        li {
+            padding: 0 1rem;
+            font-size: 17px;
+        }
+
+        #post {
+            color: white;
+            padding: 4px 8px;
+            background: $primary-clr;
+        }
     }
 
-    .nav2 li {
-        padding: 0 1rem;
+    .nav2 {
+        #and {
+            color: $primary-clr;
+            font-size: 1.5rem;
+        }
+
+        li {
+            padding: 0 1rem;
+
+            img {
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+            }
+        }
     }
+
+
 
     .logo {
         font-size: 2.5rem;

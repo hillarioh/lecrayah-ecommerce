@@ -18,6 +18,10 @@ header {
   width: 100%;
 }
 
+header .h-ic {
+  color: white;
+}
+
 header ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,8 +47,25 @@ header .nav1 li {
   font-size: 17px;
 }
 
+header .nav1 #post {
+  color: white;
+  padding: 4px 8px;
+  background: #D35266;
+}
+
+header .nav2 #and {
+  color: #D35266;
+  font-size: 1.5rem;
+}
+
 header .nav2 li {
   padding: 0 1rem;
+}
+
+header .nav2 li img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
 }
 
 header .logo {
@@ -136,14 +157,18 @@ header .logo2 {
 
 .article1 .searching .search-bar .dd4 {
   padding: 16px;
-  font-size: 16px;
-  font-weight: 600;
   background: #383838;
-  color: #888888;
   margin-left: 8px;
   cursor: pointer;
   -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
+}
+
+.article1 .searching .search-bar .dd4 a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #888888;
 }
 
 .article1 .searching .search-bar .dd4:hover {
@@ -705,7 +730,7 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .second-page aside {
