@@ -18,7 +18,9 @@ body {
     padding: 0;
 }
 
-
+.article-container {
+    background: $mainbg;
+}
 
 .article2 {
     min-height: 100vh;
@@ -130,7 +132,7 @@ body {
     .cookware {
         border-top: 1px solid $secondary-clr;
         margin-top: 2rem;
-        background: $mainbg;
+
 
         .ck-tt {
             display: flex;
@@ -268,17 +270,17 @@ body {
 
 .second-page {
     display: flex;
-    min-height: 100vh;
     justify-content: center;
+    margin-bottom: 2rem;
 
     aside {
         width: 15%;
-        background: rgb(166, 233, 166);
         padding: 0 1rem;
 
         .in-al {
             display: flex;
             align-items: center;
+            margin-bottom: 8px;
 
 
             input {
@@ -320,9 +322,9 @@ body {
 
     .sec1 {
         width: 60%;
-        background: rgb(240, 227, 154);
         border-right: 1px solid $secondary-clr;
         border-left: 1px solid $secondary-clr;
+
 
         .item1 {
             margin: 1rem 0;
@@ -336,6 +338,12 @@ body {
             border-top: 1px solid $secondary-clr;
             border-bottom: 1px solid $secondary-clr;
             margin-bottom: 8px;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: white;
+                cursor: pointer;
+            }
 
             .ad-img {
                 position: relative;
@@ -444,6 +452,41 @@ body {
 
             }
 
+        }
+
+        .count {
+            display: flex;
+            padding: 0;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+
+            li {
+                list-style: none;
+                padding: 4px 8px;
+                border: 1px solid #888;
+                margin-right: 8px;
+                border-radius: 2px;
+                font-weight: 600;
+                color: $secondary-clr;
+                background: white;
+                cursor: pointer;
+                transition: background 0.3s ease;
+
+                &:hover {
+                    background: $secondary-clr;
+                    color: white;
+                }
+            }
+
+            #two {
+                color: white;
+                background: $primary-clr;
+            }
+
+            #dot {
+                border: none;
+                background: none;
+            }
         }
     }
 }

@@ -386,6 +386,10 @@ body {
   padding: 0;
 }
 
+.article-container {
+  background: #f7efef;
+}
+
 .article2 {
   min-height: 100vh;
 }
@@ -503,7 +507,6 @@ body {
 .article2 .cookware {
   border-top: 1px solid #888888;
   margin-top: 2rem;
-  background: #dad5d5;
 }
 
 .article2 .cookware .ck-tt {
@@ -649,15 +652,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 100vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .second-page aside {
   width: 15%;
-  background: #a6e9a6;
   padding: 0 1rem;
 }
 
@@ -668,6 +670,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 8px;
 }
 
 .second-page aside .in-al input {
@@ -707,7 +710,6 @@ body {
 
 .second-page .sec1 {
   width: 60%;
-  background: #f0e39a;
   border-right: 1px solid #888888;
   border-left: 1px solid #888888;
 }
@@ -726,6 +728,13 @@ body {
   border-top: 1px solid #888888;
   border-bottom: 1px solid #888888;
   margin-bottom: 8px;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.second-page .sec1 .ad-main:hover {
+  background-color: white;
+  cursor: pointer;
 }
 
 .second-page .sec1 .ad-main .ad-img {
@@ -833,5 +842,45 @@ body {
 
 .second-page .sec1 .ad-main .ad-content p {
   color: #888888;
+}
+
+.second-page .sec1 .count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.second-page .sec1 .count li {
+  list-style: none;
+  padding: 4px 8px;
+  border: 1px solid #888;
+  margin-right: 8px;
+  border-radius: 2px;
+  font-weight: 600;
+  color: #888888;
+  background: white;
+  cursor: pointer;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+
+.second-page .sec1 .count li:hover {
+  background: #888888;
+  color: white;
+}
+
+.second-page .sec1 .count #two {
+  color: white;
+  background: #D35266;
+}
+
+.second-page .sec1 .count #dot {
+  border: none;
+  background: none;
 }
 /*# sourceMappingURL=style.css.map */
