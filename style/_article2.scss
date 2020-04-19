@@ -153,6 +153,14 @@
             display: flex;
             justify-content: space-evenly;
 
+            .stl {
+                color: $semi-clr;
+            }
+
+            .stp {
+                color: $primary-clr;
+            }
+
             .card {
                 width: 200px;
                 min-height: 284px;

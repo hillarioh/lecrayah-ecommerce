@@ -763,6 +763,14 @@ header .logo2 {
           justify-content: space-evenly;
 }
 
+.article2 .cookware .cookware-items .stl {
+  color: #383838;
+}
+
+.article2 .cookware .cookware-items .stp {
+  color: #D35266;
+}
+
 .article2 .cookware .cookware-items .card {
   width: 200px;
   min-height: 284px;
@@ -1242,6 +1250,7 @@ header .logo2 {
 .second-page aside {
   min-width: 15%;
   padding: 0 1rem;
+  color: #383838;
 }
 
 .second-page aside .in-al {
@@ -1305,6 +1314,7 @@ header .logo2 {
 .second-page .sec1 .item1 {
   margin: 1rem 0;
   margin-left: 1rem;
+  color: #383838;
 }
 
 .second-page .sec1 .ad-main {
@@ -1544,12 +1554,18 @@ header .logo2 {
   }
 }
 
+@font-face {
+  font-family: myFont;
+  src: url(../asset/HelveticaNeueMed.ttf);
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
   background: #f7efef;
+  font-family: myFont;
 }
 
 main {
