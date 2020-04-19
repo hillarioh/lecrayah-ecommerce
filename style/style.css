@@ -591,6 +591,12 @@ header .logo2 {
   font-size: 22px;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .cookware-items .tablet {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .article2 {
     margin-right: -18px;
@@ -631,6 +637,9 @@ header .logo2 {
   }
   .article2 .ad .wrapper2 {
     width: 85%;
+  }
+  .article2 .ck-tt h4 {
+    display: none;
   }
   .article2 .cookware-items {
     -ms-flex-wrap: wrap;
@@ -932,18 +941,6 @@ header .logo2 {
   }
 }
 
-body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background: #f7efef;
-}
-
-main {
-  margin-top: 60px;
-}
-
 .second-page {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -955,7 +952,7 @@ main {
 }
 
 .second-page aside {
-  width: 15%;
+  min-width: 15%;
   padding: 0 1rem;
 }
 
@@ -1036,7 +1033,6 @@ main {
 .second-page .sec1 .ad-main .ad-img {
   position: relative;
   height: auto;
-  background: #D35266;
 }
 
 .second-page .sec1 .ad-main .ad-img img {
@@ -1178,5 +1174,23 @@ main {
 .second-page .sec1 .count #dot {
   border: none;
   background: none;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .sec1 {
+    width: 70%;
+  }
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #f7efef;
+}
+
+main {
+  margin-top: 60px;
 }
 /*# sourceMappingURL=style.css.map */

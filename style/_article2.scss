@@ -250,7 +250,13 @@
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .cookware-items {
+        .tablet {
+            display: none;
+        }
+    }
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
     .article2 {
@@ -304,6 +310,12 @@
         .ad {
             .wrapper2 {
                 width: 85%;
+            }
+        }
+
+        .ck-tt {
+            h4 {
+                display: none;
             }
         }
 
