@@ -36,7 +36,7 @@
                 .ad-img {
                     position: relative;
                     height: auto;
-                    background: $primary-clr;
+                    background: white;
 
                     img {
                         height: 100%;
@@ -290,7 +290,28 @@
 
         .ad {
             .wrapper2 {
-                width: 80%;
+                width: 90%;
+
+                .ad-main {
+                    display: flex;
+                    flex-direction: column;
+
+                    .ad-img {
+                        display: flex;
+
+                        img {
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        .ck-tt {
+            padding-bottom: 5px;
+
+            h4 {
+                display: none;
             }
         }
 
@@ -313,15 +334,30 @@
 
 @media (max-width: 575px) {
     .article2 {
-        margin-right: -12.4rem;
+
 
         .ad {
             .wrapper2 {
-                width: 85%;
+                width: 90%;
+
+                .ad-main {
+                    display: flex;
+                    flex-direction: column;
+
+                    .ad-img {
+                        display: flex;
+
+                        img {
+                            margin: 0 auto;
+                        }
+                    }
+                }
             }
         }
 
         .ck-tt {
+            padding-bottom: 5px;
+
             h4 {
                 display: none;
             }
