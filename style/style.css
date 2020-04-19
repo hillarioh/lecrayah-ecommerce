@@ -22,6 +22,12 @@ header .h-ic {
   color: white;
 }
 
+header .ham-ic {
+  color: white;
+  font-size: 1.5rem;
+  display: none;
+}
+
 header ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,6 +48,10 @@ header ul li {
           align-items: center;
 }
 
+header .nav1 {
+  padding-left: 0;
+}
+
 header .nav1 li {
   padding: 0 1rem;
   font-size: 17px;
@@ -55,11 +65,12 @@ header .nav1 #post {
 
 header .nav2 #and {
   color: #D35266;
-  font-size: 1.5rem;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 header .nav2 li {
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 
 header .nav2 li img {
@@ -82,6 +93,21 @@ header .logo1 {
 header .logo2 {
   margin-left: 1rem;
   color: #888888;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  header .logo {
+    font-size: 2rem;
+  }
+  header .logo1 {
+    font-size: 1.5rem;
+  }
+  header .logo2 {
+    margin-left: 0.5rem;
+  }
+  header .nav1 li {
+    padding: 0 0.5em;
+  }
 }
 
 .article1 {

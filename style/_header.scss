@@ -16,6 +16,12 @@ header {
         color: white;
     }
 
+    .ham-ic {
+        color: white;
+        font-size: 1.5rem;
+        display: none;
+    }
+
     ul {
         display: flex;
         align-items: center;
@@ -29,7 +35,7 @@ header {
     }
 
     .nav1 {
-
+        padding-left: 0;
 
         li {
             padding: 0 1rem;
@@ -46,17 +52,20 @@ header {
     .nav2 {
         #and {
             color: $primary-clr;
-            font-size: 1.5rem;
+            font-size: 16px;
+            font-weight: 600;
         }
 
         li {
-            padding: 0 1rem;
+            padding: 0 0.5rem;
 
             img {
                 width: 45px;
                 height: 45px;
                 border-radius: 50%;
             }
+
+
         }
     }
 
@@ -78,7 +87,29 @@ header {
 
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    header {
+        .logo {
+            font-size: 2rem;
+        }
+
+        .logo1 {
+            font-size: 1.5rem;
+        }
+
+        .logo2 {
+            margin-left: 0.5rem;
+        }
+
+        .nav1 {
+            li {
+                padding: 0 0.5em;
+            }
+        }
+
+    }
+}
 
 @media (min-width: 768px) and (max-width: 991px) {}
 
