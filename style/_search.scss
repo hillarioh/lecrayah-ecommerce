@@ -25,7 +25,7 @@
         .form-group {
             display: flex;
             flex-wrap: wrap;
-            margin: 1rem 0;
+            margin-top: 1rem;
 
         }
 
@@ -54,6 +54,8 @@
         width: 60%;
         border-right: 1px solid $secondary-clr;
         border-left: 1px solid $secondary-clr;
+        display: flex;
+        flex-direction: column;
 
 
         .item1 {
@@ -237,6 +239,52 @@
     }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {}
+@media (min-width: 576px) and (max-width: 767px) {
+    .second-page {
+        flex-direction: column;
 
-@media (max-width: 575px) {}
+        .form-group1 {
+            .grp1 {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+
+        .sec1 {
+            width: 95%;
+            margin-left: 2%;
+        }
+    }
+
+}
+
+@media (max-width: 575px) {
+    .second-page {
+        flex-direction: column;
+
+        .form-group1 {
+            .grp1 {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+
+        .sec1 {
+            width: 95%;
+            margin-left: 2%;
+
+            .ad-main {
+                flex-direction: column;
+
+                .ad-img {
+                    background: white;
+                    display: flex;
+
+                    img {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
