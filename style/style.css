@@ -1660,6 +1660,10 @@ main {
   margin-top: 60px;
 }
 
+.hidden {
+  display: none;
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
   main {
     margin-top: 0;
