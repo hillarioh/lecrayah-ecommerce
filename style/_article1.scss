@@ -82,7 +82,7 @@
                 background: $semi-clr;
                 align-items: center;
                 justify-content: center;
-                margin-left: 8px;
+
                 cursor: pointer;
                 transition: background 0.3s ease;
 
@@ -140,18 +140,17 @@
 
         .search-bar {
             flex-direction: column;
+            padding-left: 41px;
 
             .dd1 {
                 min-width: 90%;
-                margin-left: 5%;
                 height: 45px;
                 margin-bottom: 8px;
             }
 
             .dd2,
             .dd3 {
-                min-width: 89%;
-                margin-left: 4.9%;
+                min-width: 88.5%;
                 line-height: 45px;
                 margin-bottom: 8px;
             }
@@ -168,6 +167,9 @@
 }
 
 @media (max-width: 575px) {
+
+
+
     .article1 {
 
         .title-content {
@@ -176,24 +178,23 @@
 
         .search-bar {
             flex-direction: column;
+            padding-left: 41px;
 
             .dd1 {
                 min-width: 90%;
-                margin-left: 5%;
                 height: 45px;
                 margin-bottom: 8px;
             }
 
             .dd2,
             .dd3 {
-                min-width: 89%;
-                margin-left: 4.9%;
+                min-width: 88.5%;
                 line-height: 45px;
                 margin-bottom: 8px;
             }
 
             .dd4 {
-                width: 91%;
+                width: 90%;
 
                 a {
                     color: white;

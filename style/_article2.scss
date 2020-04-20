@@ -108,7 +108,7 @@
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
-            width: 70%;
+            min-width: 70%;
             height: 50px;
             margin: 1rem auto;
             border-bottom: 1px solid $secondary-clr;
@@ -302,7 +302,7 @@
             h4 {
                 display: none;
 
-                
+
             }
         }
 
@@ -344,6 +344,7 @@
 
         .ck-tt {
             padding-bottom: 5px;
+            margin: 0.5rem;
 
             h4 {
                 display: none;
