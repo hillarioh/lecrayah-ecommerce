@@ -1,0 +1,44 @@
+@import "./variables";
+@import "./header";
+@import "./article1";
+@import "./article2";
+@import "./footer";
+@import "./search";
+
+@font-face {
+    font-family: myFont;
+    src: url(../asset/HelveticaNeueMed.ttf);
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: $mainbg;
+    font-family: myFont;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    main {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    main {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,205 @@
+.article1 {
+    background: $primary-clr;
+
+    .searching {
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+        .title-content {
+            color: white;
+            margin-bottom: 2rem;
+            text-align: center;
+
+            h {
+                font-size: 4rem;
+                font-weight: 600;
+            }
+
+            p {
+                margin: 0;
+                font-size: 1.5rem;
+            }
+        }
+
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            min-height: 40px;
+
+            .dd1 {
+                width: 14%;
+
+                .dropbtn {
+                    background-color: white;
+                    color: $secondary-clr;
+                    border: none;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    width: 100%;
+
+                    img {
+                        width: 10px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            .dd2 {
+                width: 28%;
+                color: $semi-clr;
+                border: none;
+                font-size: 16px;
+                padding-left: 8px;
+                border-left: 1px solid $primary-clr;
+            }
+
+            .dd3 {
+                width: 28%;
+                color: $semi-clr;
+                border: none;
+                font-size: 16px;
+                padding-left: 8px;
+                border-left: 1px solid $primary-clr;
+            }
+
+            .dd4 {
+                min-width: 5%;
+
+                a {
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: $secondary-clr;
+                }
+
+                padding: 16px;
+                display: flex;
+                background: $semi-clr;
+                align-items: center;
+                justify-content: center;
+
+                cursor: pointer;
+                transition: background 0.3s ease;
+
+                &:hover {
+                    background: $hsemi;
+                    color: white;
+                }
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                width: 100%;
+                z-index: 1;
+
+                a {
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+
+                    &:hover {
+                        background-color: #f1f1f1;
+                    }
+                }
+            }
+
+            .dropdown:hover .dropdown-content {
+                transition-property: display;
+                transition-delay: 2s;
+                transition-duration: 4s;
+                display: block;
+            }
+
+            .dropdown:hover .dropbtn {
+                background-color: #dce2dc;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .article1 {
+        margin-right: -18px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .article1 {
+
+        .title-content {
+            margin-bottom: 6px;
+        }
+
+        .search-bar {
+            flex-direction: column;
+            padding-left: 41px;
+
+            .dd1 {
+                min-width: 90%;
+                height: 45px;
+                margin-bottom: 8px;
+            }
+
+            .dd2,
+            .dd3 {
+                min-width: 88.5%;
+                line-height: 45px;
+                margin-bottom: 8px;
+            }
+
+            .dd4 {
+                width: 90%;
+
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+
+
+
+    .article1 {
+
+        .title-content {
+            margin-bottom: 6px;
+        }
+
+        .search-bar {
+            flex-direction: column;
+            padding-left: 41px;
+
+            .dd1 {
+                min-width: 90%;
+                height: 45px;
+                margin-bottom: 8px;
+            }
+
+            .dd2,
+            .dd3 {
+                min-width: 88.5%;
+                line-height: 45px;
+                margin-bottom: 8px;
+            }
+
+            .dd4 {
+                width: 90%;
+
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+}
