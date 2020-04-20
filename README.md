@@ -49,11 +49,11 @@ Just fork it and you are good to go.
 - Linkedin: [Hillarioh Okerio](www.linkedin.com/in/hillaryokerio)
 - Email: (okerioh@gmail.com)
 
-## 🤝 Contributing
+## 🤝 Credits
 
-Contributions, issues and feature requests are welcome!
+Special credit to Mohammed Awad for the design of the webpage
 
-Feel free to check the [issues page](https://github.com/hillarioh/Newsweek.com-clone/issues).
+[Design page](https://www.behance.net/gallery/24796463/ZATTIX).
 
 ## Show your support
 
