@@ -400,7 +400,6 @@ header .logo2 {
       -ms-flex-pack: center;
           justify-content: center;
   min-height: 40px;
-  /* Change the background color of the dropdown button when the dropdown content is shown */
 }
 
 .article1 .searching .search-bar .dd1 {
@@ -506,7 +505,7 @@ header .logo2 {
 }
 
 .article1 .searching .search-bar .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #dce2dc;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

@@ -18,9 +18,6 @@
                 border-radius: 50%;
                 border: 1px solid $secondary-clr;
             }
-
-
-
         }
 
         .wrapper2 {
@@ -106,7 +103,6 @@
         margin-top: 2rem;
         padding-bottom: 2rem;
 
-
         .ck-tt {
             display: flex;
             justify-content: space-between;
@@ -167,7 +163,6 @@
                 overflow: hidden;
                 position: relative;
                 background: white;
-                // border-radius: 5px;
                 margin: 8px 8px;
                 box-shadow: 1px 1px 1px 1px #ccc;
                 padding: 2px;
@@ -192,11 +187,9 @@
                     padding-right: 1.5rem;
                     height: 40%;
 
-
                     div {
                         display: flex;
                         justify-content: space-between;
-
 
                         i {
                             position: absolute;
@@ -236,7 +229,6 @@
                 .overlay {
                     width: 100%;
                     height: 100%;
-
                     background: #bbb7b7;
 
                     img {
@@ -250,7 +242,6 @@
                         top: 50%;
                         right: 50%;
                         font-size: 22px;
-
                     }
                 }
             }
@@ -286,8 +277,6 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
     .article2 {
-        // margin-right: -12.4rem;
-
         .ad {
             .wrapper2 {
                 width: 90%;
@@ -326,16 +315,12 @@
                 flex: 40%;
                 max-width: 40%;
             }
-
-
         }
     }
 }
 
 @media (max-width: 575px) {
     .article2 {
-
-
         .ad {
             .wrapper2 {
                 width: 90%;
@@ -374,8 +359,6 @@
                 flex: 40%;
                 max-width: 40%;
             }
-
-
         }
     }
 }
